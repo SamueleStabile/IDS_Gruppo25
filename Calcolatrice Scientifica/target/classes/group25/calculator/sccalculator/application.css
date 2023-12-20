@@ -1,0 +1,68 @@
+.root{
+    -fx-background-color: #000000;
+}
+
+
+.button {
+
+    -fx-background-color: #0f0f1e;
+}
+
+.button:hover{
+    -fx-background-color: #282848;
+}
+
+
+
+
+
+.button-operation{
+    -fx-background-color: #00c4ff;
+}
+.button-operation:hover{
+    -fx-background-color: #167e9d;
+}
+
+.button-equal{
+
+    -fx-background-color: #4afc04;
+}
+
+.button-equal:hover{
+    -fx-background-color: #245d0e;
+
+}
+
+.text-field{
+    -fx-background-color: #000000;
+
+}
+
+.button-pic{
+    -fx-background-color: #000000;
+
+}
+
+.side-menu{
+    -fx-background-color: #0f0f1e;
+
+}
+
+.side-button{
+    -fx-background-color: #0f0f1e;
+}
+
+.side-button:hover{
+    -fx-background-color: #282848;
+}
+
+.text-field{
+    -fx-background-color: #0f0f1e;
+    -fx-text-fill:  white;
+    -fx-alignment: center-right;
+
+}
+.text-field:hover{
+    -fx-background-color: #282848;
+}
+

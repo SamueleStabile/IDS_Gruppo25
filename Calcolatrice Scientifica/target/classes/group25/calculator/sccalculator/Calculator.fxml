@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="612.0" prefWidth="446.0" styleClass="root" stylesheets="@application.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="group25.calculator.sccalculator.CalculatorController">
+    <children>
+        <Button id="Number" fx:id="numberbutton0" layoutX="28.0" layoutY="530.0" mnemonicParsing="false" onMouseClicked="#HandlePressButton" prefHeight="58.0" prefWidth="192.0" styleClass="button" stylesheets="@application.css" text="0" textFill="WHITE" userData="0">
+            <font>
+                <Font name="System Bold" size="28.0" />
+            </font>
+            <effect>
+                <DropShadow />
+            </effect>
+        </Button>
+        <Button id="Number" layoutX="229.0" layoutY="530.0" mnemonicParsing="false" onMouseClicked="#HandlePressButton" prefHeight="58.0" prefWidth="91.0" styleClass="button" stylesheets="@application.css" text="," textFill="WHITE" userData=".">
+            <font>
+                <Font name="Monospaced Bold" size="28.0" />
+            </font>
+            <effect>
+                <DropShadow />
+            </effect>
+        </Button>
+        <Button id="Number" fx:id="numberbutton1" layoutX="29.0" layoutY="454.0" mnemonicParsing="false" onMouseClicked="#HandlePressButton" prefHeight="63.0" prefWidth="91.0" styleClass="button" stylesheets="@application.css" text="1" textFill="WHITE" userData="1">
+            <effect>
+                <DropShadow />
+            </effect>
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font></Button>
+        <Button id="Number" fx:id="numberbutton2" layoutX="129.0" layoutY="454.0" mnemonicParsing="false" onMouseClicked="#HandlePressButton" prefHeight="63.0" prefWidth="91.0" styleClass="button" stylesheets="@application.css" text="2" textFill="WHITE" userData="2">
+            <effect>
+                <DropShadow />
+            </effect>
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font></Button>
+        <Button id="Number" fx:id="numberbutton3" layoutX="229.0" layoutY="454.0" mnemonicParsing="false" onMouseClicked="#HandlePressButton" prefHeight="63.0" prefWidth="91.0" styleClass="button" stylesheets="@application.css" text="3" textFill="WHITE" userData="3">
+            <effect>
+                <DropShadow />
+            </effect>
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font></Button>
+        <Button id="Number" fx:id="numberbutton4" layoutX="29.0" layoutY="382.0" mnemonicParsing="false" onMouseClicked="#HandlePressButton" prefHeight="63.0" prefWidth="91.0" styleClass="button" stylesheets="@application.css" text="4" textFill="WHITE" userData="4">
+            <effect>
+                <DropShadow />
+            </effect>
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font></Button>
+        <Button id="Number" fx:id="numberbutton5" layoutX="129.0" layoutY="382.0" mnemonicParsing="false" onMouseClicked="#HandlePressButton" prefHeight="63.0" prefWidth="91.0" styleClass="button" stylesheets="@application.css" text="5" textFill="WHITE" userData="5">
+            <effect>
+                <DropShadow />
+            </effect>
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font></Button>
+        <Button id="Number" fx:id="numberbutton6" layoutX="229.0" layoutY="382.0" mnemonicParsing="false" onMouseClicked="#HandlePressButton" prefHeight="63.0" prefWidth="91.0" styleClass="button" stylesheets="@application.css" text="6" textFill="WHITE" userData="6">
+            <effect>
+                <DropShadow />
+            </effect>
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font></Button>
+        <Button id="Number" fx:id="numberbutton7" layoutX="29.0" layoutY="309.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onMouseClicked="#HandlePressButton" prefHeight="63.0" prefWidth="91.0" styleClass="button" stylesheets="@application.css" text="7" textFill="WHITE" userData="7">
+            <effect>
+            <Blend />
+            </effect>
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font></Button>
+        <Button id="Number" fx:id="numberbutton8" layoutX="129.0" layoutY="309.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onMouseClicked="#HandlePressButton" prefHeight="63.0" prefWidth="91.0" styleClass="button" stylesheets="@application.css" text="8" textFill="WHITE" userData="8">
+            <effect>
+                <DropShadow>
+                    <color>
+                        <Color red="0.10526315867900848" green="0.10087719559669495" blue="0.10087719559669495" />
+                    </color>
+                </DropShadow>
+            </effect>
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font></Button>
+        <Button id="Number" fx:id="numberbutton9" layoutX="229.0" layoutY="309.0" mnemonicParsing="false" onMouseClicked="#HandlePressButton" prefHeight="63.0" prefWidth="91.0" styleClass="button" stylesheets="@application.css" text="9" textFill="WHITE" userData="9">
+            <effect>
+                <DropShadow />
+            </effect>
+            <stylesheets>
+                <URL value="@application.css" />
+                <URL value="@application.css" />
+            </stylesheets>
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font></Button>
+      <Button focusTraversable="false" layoutX="26.0" layoutY="222.0" mnemonicParsing="false" onMouseClicked="#clearDisplay" prefHeight="71.0" prefWidth="91.0" styleClass="button-operation" stylesheets="@application.css" text="c" textFill="WHITE">
+         <font>
+            <Font name="Microsoft Tai Le Bold" size="28.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+        <Button layoutX="100.0" layoutY="222.0" mnemonicParsing="false" onMouseClicked="#delDisplay" prefHeight="71.0" prefWidth="91.0" styleClass="button-operation" stylesheets="@application.css" text="Del" textFill="WHITE">
+            <font>
+                <Font name="Microsoft Tai Le Bold" size="18.0" />
+            </font>
+         <effect>
+            <DropShadow />
+         </effect></Button>
+        <Button layoutX="179.0" layoutY="222.0" mnemonicParsing="false" onMouseClicked="#HandlePressButton" prefHeight="71.0" prefWidth="99.0" styleClass="button-operation" stylesheets="@application.css" text="√" textFill="WHITE">
+            <font>
+                <Font name="Microsoft Tai Le Bold" size="18.0" />
+            </font>
+         <effect>
+            <DropShadow />
+         </effect></Button>
+        <Button layoutX="257.0" layoutY="222.0" mnemonicParsing="false" onMouseClicked="#HandlePressButton" prefHeight="71.0" prefWidth="99.0" styleClass="button-operation" stylesheets="@application.css" text="+/-" textFill="WHITE">
+            <font>
+                <Font name="Microsoft Tai Le Bold" size="18.0" />
+            </font>
+         <effect>
+            <DropShadow />
+         </effect></Button>
+        <Button layoutX="345.0" layoutY="222.0" mnemonicParsing="false" onMouseClicked="#HandlePressButton" prefHeight="86.0" prefWidth="75.0" styleClass="button-operation" stylesheets="@application.css" text="+" textFill="WHITE">
+            <font>
+                <Font name="Microsoft Tai Le Bold" size="18.0" />
+            </font>
+         <effect>
+            <DropShadow />
+         </effect></Button>
+        <Button layoutX="345.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#HandlePressButton" prefHeight="77.0" prefWidth="75.0" styleClass="button-operation" stylesheets="@application.css" text="-" textFill="WHITE">
+            <font>
+                <Font name="Microsoft Tai Le Bold" size="18.0" />
+            </font>
+         <effect>
+            <DropShadow />
+         </effect></Button>
+        <Button layoutX="345.0" layoutY="374.0" mnemonicParsing="false" onMouseClicked="#HandlePressButton" prefHeight="77.0" prefWidth="75.0" styleClass="button-operation" stylesheets="@application.css" text="/" textFill="WHITE">
+            <font>
+                <Font name="Microsoft Tai Le Bold" size="18.0" />
+            </font>
+         <effect>
+            <DropShadow />
+         </effect></Button>
+        <Button layoutX="345.0" layoutY="447.0" mnemonicParsing="false" onMouseClicked="#HandlePressButton" prefHeight="77.0" prefWidth="75.0" styleClass="button-operation" stylesheets="@application.css" text="*" textFill="WHITE">
+            <font>
+                <Font name="Microsoft Tai Le Bold" size="18.0" />
+            </font>
+         <effect>
+            <DropShadow />
+         </effect></Button>
+        <Button fx:id="enterButton" layoutX="345.0" layoutY="510.0" mnemonicParsing="false" onMouseClicked="#handleEnter" prefHeight="77.0" prefWidth="75.0" styleClass="button-equal" stylesheets="@application.css" text="Enter" textFill="WHITE">
+            <font>
+                <Font name="Microsoft Tai Le Bold" size="18.0" />
+            </font>
+         <effect>
+            <DropShadow />
+         </effect></Button>
+      <Pane depthTest="ENABLE" layoutX="5.0" layoutY="56.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="86.0" prefWidth="417.0">
+         <children>
+            <Label fx:id="lbl" layoutX="28.0" layoutY="19.0" prefHeight="35.0" prefWidth="422.0" text="0" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft Tai Le Bold" size="24.0" />
+               </font></Label>
+         </children>
+      </Pane>
+      <Button layoutX="382.0" layoutY="11.0" mnemonicParsing="false" onMouseClicked="#toggleSideMenu" styleClass="button-pic" stylesheets="@application.css">
+         <graphic>
+            <ImageView fitHeight="38.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/icons8-hamburger-30.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <VBox fx:id="sideMenu" layoutX="-1.0" layoutY="4.0" prefHeight="612.0" prefWidth="180.0" styleClass="side-menu" stylesheets="@application.css" visible="false">
+         <children>
+            <Button mnemonicParsing="false" onMouseClicked="#switchSceneButton" prefHeight="42.0" prefWidth="184.0" styleClass="side-button" stylesheets="@application.css" text="StackView" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft Tai Le Bold" size="16.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onMouseClicked="#switchSceneButton" prefHeight="42.0" prefWidth="189.0" styleClass="side-button" stylesheets="@application.css" text="Variables" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft Tai Le Bold" size="16.0" />
+               </font></Button>
+         </children></VBox>
+
+
+    </children>
+    <cursor>
+        <Cursor fx:constant="HAND" />
+    </cursor>
+</AnchorPane>

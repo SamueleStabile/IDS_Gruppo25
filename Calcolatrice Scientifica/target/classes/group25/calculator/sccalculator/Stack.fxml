@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="609.0" prefWidth="447.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="group25.calculator.sccalculator.CalculatorController">
+   <children>
+      <VBox fx:id="stackContainer" layoutX="35.0" layoutY="108.0" />
+      <Button layoutX="285.0" layoutY="139.0" mnemonicParsing="false" onMouseClicked="#OperationStack" prefHeight="63.0" prefWidth="94.0" styleClass="button-operation" stylesheets="@application.css" text="Clear" textFill="WHITE">
+         <font>
+            <Font name="Microsoft Tai Le Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="285.0" layoutY="214.0" mnemonicParsing="false" onMouseClicked="#OperationStack" prefHeight="63.0" prefWidth="94.0" styleClass="button-operation" stylesheets="@application.css" text="Drop" textFill="WHITE">
+         <font>
+            <Font name="Microsoft Tai Le Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="285.0" layoutY="362.0" mnemonicParsing="false" onMouseClicked="#OperationStack" prefHeight="63.0" prefWidth="94.0" styleClass="button-operation" stylesheets="@application.css" text="Swap" textFill="WHITE">
+         <font>
+            <Font name="Microsoft Tai Le Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="285.0" layoutY="437.0" mnemonicParsing="false" onMouseClicked="#OperationStack" prefHeight="63.0" prefWidth="94.0" styleClass="button-operation" stylesheets="@application.css" text="Over" textFill="WHITE">
+         <font>
+            <Font name="Microsoft Tai Le Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="285.0" layoutY="288.0" mnemonicParsing="false" onMouseClicked="#OperationStack" prefHeight="63.0" prefWidth="94.0" styleClass="button-operation" stylesheets="@application.css" text="Dup" textFill="WHITE">
+         <font>
+            <Font name="Microsoft Tai Le Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="387.0" layoutY="-8.0" mnemonicParsing="false" onMouseClicked="#toggleSideMenu" prefHeight="59.0" prefWidth="60.0" styleClass="button-pic" stylesheets="@application.css">
+         <graphic>
+            <ImageView fitHeight="38.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/icons8-hamburger-30.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <VBox fx:id="sideMenu" layoutX="-1.0" layoutY="4.0" prefHeight="639.0" prefWidth="185.0" styleClass="side-menu" stylesheets="@application.css" visible="false">
+         <children>
+            <Button mnemonicParsing="false" onMouseClicked="#switchSceneButton" prefHeight="42.0" prefWidth="184.0" styleClass="side-button" stylesheets="@application.css" text="Calculator" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft Tai Le Bold" size="16.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onMouseClicked="#switchSceneButton" prefHeight="42.0" prefWidth="189.0" styleClass="side-button" stylesheets="@application.css" text="Variables" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft Tai Le Bold" size="16.0" />
+               </font></Button>
+         </children></VBox>
+      <Label fx:id="lbl" layoutX="121.0" layoutY="567.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="34.0" prefWidth="206.0" text="0" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
